@@ -442,8 +442,8 @@ def shukurenai_about_callback(update, context):
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
             "\n\n*Greetings*"
             "\nLets set a welcome message to welcome new users coming to your group."
-            "\nsend `/setwelcome [message]` to set a welcome message!",
-            "\nYou can /play audio and video songs on Lagfree."
+            "\nsend `/setwelcome [message]` to set a welcome message!"
+            "\nYou can /play audio and video songs on Lagfree.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
