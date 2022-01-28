@@ -82,16 +82,17 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm KK_ARMY's offical Group management bot\n[🔥](https://telegra.ph/file/ba6d3d723cc696a4310fd.jpg) 
+✪ I'm KK_ARMY's offical Group management bot.
+![🔥](https://telegra.ph/file/ba6d3d723cc696a4310fd.jpg) 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
 ✌ I can  sing songs in  video and audio format freely
-💎 KK ARMY IS A BIG-SMALL FAMILY IN TG.AND IT HAVE A OWNER [@kk_heaven_hater].
-🌹 KK ARMY HAVE VARIOUS TYPES OF GROUPS IN TELEGRAM. YOU CAN FIND FROM HERE[@KK_LINKS]
-❤KK ARMY PROTECT YOU FROM SPAMMERS AND FLIRTS.PROOFS ARE SHOWED IN [@complaintportal_tg].
+💎 KK ARMY IS A BIG-SMALL FAMILY IN TG.AND IT HAVE A OWNER[![@kk_heaven_hater](https://t.me/kk_heaven_hater)]
+🌹 KK ARMY HAVE VARIOUS TYPES OF GROUPS IN TELEGRAM. YOU CAN FIND FROM HERE. [![@KK_LINKS](https://t.me/KK_LINKS)]
+❤KK ARMY PROTECT YOU FROM SPAMMERS AND FLIRTS.PROOFS ARE SHOWED IN [![@complaintportal_tg](https://t.me/complaintportal_tg)].
 """
 
 buttons = [
@@ -129,7 +130,7 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/0eae0570ca55cdfde2146.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm.any assistance contact [@FULL_CRUAL_MIND]"
-DONATE_STRING = """Contact to **@shukurenai007bot**"""
+DONATE_STRING = """Contact to **@kk_kovilakam**"""
 HELP_IMG = "https://telegra.ph/file/59453cf05daa750f973eb.jpg"
 GROUP_IMG = "https://telegra.ph/file/30dbcb7870a79eac0d54d.jpg"
 
@@ -390,14 +391,14 @@ def shukurenai_about_callback(update, context):
     if query.data == "shukurenai_":
         query.message.edit_text(
             text="๏ I'm *@Stenzle_MariaGbot*, a powerful group management bot built to help you manage your group easily."
-            "\n° I can sing songs in audio and video format at Lagfree."
+            "\n• I can sing songs in audio and video format at Lagfree."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n@Stenzle_MariaGbot's licensed under the GNU General Public License v3.0_"
+            "\n\n @Stenzle_MariaGbot's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for @Stenzle_MariaGbot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
