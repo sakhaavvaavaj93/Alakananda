@@ -13,7 +13,7 @@
 
 # 🔱 OwneR
 
-  👑 [DARK_DEVIL](https://t.me/FULL_CRUAL_MIND)
+# 👑 [DARK_DEVIL](https://t.me/FULL_CRUAL_MIND)
 
 # Permenant Devs :- 
 
