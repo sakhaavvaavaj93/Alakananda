@@ -119,7 +119,7 @@ buttons = [
                              url=f"https://t.me/complaintportal_tg/1"),
                        InlineKeyboardButton(
                              text="MUSIC🎼ASSISTANT",
-                             url=f"https://t.me/STENZLE_MUSICX")
+                             url=f"https://t.me/STENZLE_MUSICX"),
     ],
 
 ]
