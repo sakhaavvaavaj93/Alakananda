@@ -473,7 +473,7 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ShuKurenaiSupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/kk_kovilakam"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/stenzle_appeal_chat"),
                  ],
                  [
@@ -485,7 +485,7 @@ def shukurenai_about_callback(update, context):
         )
 
 
-    elif query.data == "@Stenzle_MariaGbot"credit":
+    elif query.data == "shukurenai_credit":
         query.message.edit_text(
             text=f"๏ Credis for @Stenzle_MariaGbot\n"
             "\nHere Developers Making And Give Inspiration For Made The @Stenzle_MariaGbotGbot",
