@@ -99,7 +99,7 @@ x i can sing audio and video in your chat on No lagging and fully stable
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add S@Stenzle_MariaGbot o Your Group ➗", url="t.me/Stenzle_MariaGbot?startgroup=new"),
+            text="🔴 Add @Stenzle_MariaGbot to Your Group 🔴", url="t.me/Stenzle_MariaGbot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -111,22 +111,22 @@ buttons = [
     ],
     [                  
                        InlineKeyboardButton(
-                             text="Support🚑",
-                             url=f"https://t.me/KK_FED_APPEAL"),
+                             text="🔰𝑭𝒆𝑫🔰",
+                             url=f"https://t.me/KK_APPEAL_CHAT"),
                        InlineKeyboardButton(
                              text="Updates🔱Logs",
                              url=f"https://t.me/stenzle_appeal_chat"),
     ],
     [                  
                        InlineKeyboardButton(
-                       text="🏡കോവിലകം",
-                             url=f"https://t.me/kk_kovilakam"),
-                       InlineKeyboardButton(
-                             text="Our♥️family",
+                             text="𝕂𝕂⚔️𝔽𝔸𝕄𝕀𝕃𝕐",
                              url=f"https://t.me/KK_LINKS"),
                        InlineKeyboardButton(
-                             text="Music Assistant",
+                             text="𝕸𝖚𝖘𝖎𝖈🎶𝕬𝖘𝖘𝖎𝖘𝖙𝖆𝖓𝖗",
                              url=f"https://t.me/STENZLE_MUSICX"),
+                       InlineKeyboardButton(
+                             text="🔊𝗠𝗨𝗦𝗜𝗖🎞️𝗚𝗔𝗟𝗟𝗘𝗥𝗬🔊",
+                             url=f"https://t.me/RADHA_MADHAVAM"),
     ],
 ]
 
