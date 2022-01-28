@@ -4,7 +4,7 @@
 
 <h4><p align="center"> 𝐒𝐡𝐮𝐊𝐮𝐫𝐞𝐧𝐚𝐢𝐗𝐑𝐨𝐁𝐨𝐭 </p></h4>
 
-![@Stenzle_MariaGbot](https://t.me/Stenzle_MariaGbot) is a modular bot running on python3 with anime theme and have a lot features.
+[@Stenzle_MariaGbot](https://t.me/Stenzle_MariaGbot) is a modular bot running on python3 with anime theme and have a lot features.
 
 
 ### Easiest Way To Deploy On Heroku 
@@ -13,7 +13,7 @@
 
 # 🔱 OwneR
 
-  👑 ![DARK_DEVIL](https://t.me/FULL_CRUAL_MIND)
+  👑 [DARK_DEVIL](https://t.me/FULL_CRUAL_MIND)
 
 # Permenant Devs :- 
 
