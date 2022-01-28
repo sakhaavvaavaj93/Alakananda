@@ -86,7 +86,6 @@ PM_START_TEXT = """
 👑 I am official bot of 🌟𝗞𝗞_𝗔𝗥𝗠𝗬🌟
 🔱 𝗜 𝗰𝗮𝗻 𝘀𝗶𝗻𝗴 𝗼𝗻 𝗔𝗻𝘆 𝗖𝗛𝗔𝗧 𝗼𝗻 𝘃𝗶𝗱𝗲𝗼 𝗮𝗻𝗱 𝗔𝘂𝗱𝗶𝗼 .
 🎀 𝙸 𝚌𝚊𝚗 𝚕𝚘𝚟𝚎 𝚎𝚟𝚎𝚛𝚢𝚘𝚗𝚎 ,𝚠𝚑𝚘 𝚊𝚍𝚍𝚎𝚍 𝚖𝚎 .
-
 [🔥](https://telegra.ph/file/39d18744acde2f5423a92.jpg) 
 ────────────────────────
 × *Uptime:* `{}`
@@ -95,7 +94,6 @@ x i can sing audio and video in your chat on No lagging and fully stable
 ────────────────────────
 ✪ Hit /help to see my available commands.
 """
-
 buttons = [
     [
         InlineKeyboardButton(
@@ -130,25 +128,19 @@ buttons = [
     ],
 ]
 
-
 HELP_STRINGS = """
+Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/39d18744acde2f5423a92.jpg)
 𝐈 𝐚𝐦 𝐒𝐓𝐄𝐍𝐙𝐋𝐄_𝐌𝐀𝐑𝐈𝐀 . 
-𝐈 𝐚𝐦 𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐛𝐨𝐭 𝗼𝗳 🐓𝗞𝗞🐓𝗔𝗥𝗠𝗬🐓 , 
-
-𝑂𝑤𝑛𝑒𝑟 : ![𝐾𝐾_𝐻𝐸𝐴𝑉𝐸𝑁_𝐻𝐴𝑇𝐸𝑅](https://t.me/kk_heaven_hater),
-
-𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟_𝗙𝗘𝗗 :-  ![@KK_APPEAL_CHAT](https://t.me/KK_APPEAL_CHAT) ,
-
-𝗚𝗕𝗔𝗡 𝗟𝗢𝗚𝗦   :- ![@stenzle_appeal_chat](https://t.me/stenzle_appeal_chat) ,
-
-Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/39d18744acde2f5423a92.jpg)"""
+𝐈 𝐚𝐦 𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐛𝐨𝐭 𝗼𝗳 🐓𝗞𝗞🐓𝗔𝗥𝗠𝗬🐓 
+𝑂𝑤𝑛𝑒𝑟 : ![𝐾𝐾_𝐻𝐸𝐴𝑉𝐸𝑁_𝐻𝐴𝑇𝐸𝑅](https://t.me/kk_heaven_hater)
+𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟_𝗙𝗘𝗗 :-  ![@KK_APPEAL_CHAT](https://t.me/KK_APPEAL_CHAT) 
+𝗚𝗕𝗔𝗡 𝗟𝗢𝗚𝗦   :- ![@stenzle_appeal_chat](https://t.me/stenzle_appeal_chat) 
+"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **@shukurenai007bot**"""
 HELP_IMG = "https://telegra.ph/file/bf2a90eb09de80957ef08.jpg"
 GROUP_IMG = "https://telegra.ph/file/84cb3653b4acfd146eec2.jpg"
-
-
 
 IMPORTED = {}
 MIGRATEABLE = []
