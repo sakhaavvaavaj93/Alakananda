@@ -119,7 +119,9 @@ buttons = [
                        InlineKeyboardButton(
                              text="Our♥️family",
                              url=f"https://t.me/KK_LINKS"),
-                       Inline keyboard button(text="Music Assistant",url=f"https://t.me/STENZLE_MUSICX"),
+                       InlineKeyboardButton(
+                             text="Music Assistant",
+                             url=f"https://t.me/STENZLE_MUSICX"),
     ],
 ]
 
