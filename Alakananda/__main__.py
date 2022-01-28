@@ -97,7 +97,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/Stenzle_MariaGbot?startgroup=new"),
+            text="➗ Add 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ》 To Your Group ➗", url="t.me/Stenzle_MariaGbot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -115,8 +115,11 @@ buttons = [
                              text="Updates🛰️GBANLOGS",
                              url=f"https://t.me/stenzle_appeal_chat"),
                       InlineKeyboardButton(
-                      	     text="complaintportal_tg","https://t.me/complaintportal_tg/1"),
-                       InlineKeyboardButton(text="MUSIC🎼ASSISTANT",callback_data="Alakananda/modules/musicplayer")
+                      	     text="complaintportal_tg",
+                             url=f"https://t.me/complaintportal_tg/1"),
+                       InlineKeyboardButton(
+                             text="MUSIC🎼ASSISTANT",
+                             url=f"https://t.me/STENZLE_MUSICX")
     ],
 
 ]
