@@ -445,8 +445,8 @@ def shukurenai_about_callback(update, context):
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
             "\n\n*Greetings*"
             "\nLets set a welcome message to welcome new users coming to your group."
-            "\nsend `/setwelcome [message]` to set a welcome message!",
-            "\nYou can /play audio and video songs on Lagfree."
+            "\nsend `/setwelcome [message]` to set a welcome message!"
+            "\nYou can /play audio and video songs on Lagfree.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -768,7 +768,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 5007155069:
             update.effective_message.reply_text(
-                "I'm free for everyone 😎 If you wanna make me smile, just join"
+                "I'm free for everyone 😎 If you wanna make me smile, just join",
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -811,7 +811,7 @@ def migrate_chats(update: Update, context: CallbackContext):
 
 def main():
 
-    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
+    if SUPPORT_CHAT is not None and is instance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](https://telegra.ph/file/59453cf05daa750f973eb.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
