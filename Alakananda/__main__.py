@@ -811,7 +811,7 @@ def migrate_chats(update: Update, context: CallbackContext):
 
 def main():
 
-    if SUPPORT_CHAT is not None and is instance(SUPPORT_CHAT, str):
+    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](https://telegra.ph/file/59453cf05daa750f973eb.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
