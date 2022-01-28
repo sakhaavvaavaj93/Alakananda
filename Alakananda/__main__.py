@@ -89,15 +89,15 @@ PM_START_TEXT = """
 ────────────────────────
 ✪ Hit /help to see my available commands.
 ✌ I can  sing songs in  video and audio format freely
-💎 KK ARMY IS A BIG-SMALL FAMILY IN TG.AND IT HAVE A OWNER [@kk_heaven_hater].
-🌹 KK ARMY HAVE VARIOUS TYPES OF GROUPS IN TELEGRAM. YOU CAN FIND FROM HERE[@KK_LINKS]
-❤KK ARMY PROTECT YOU FROM SPAMMERS AND FLIRTS.PROOFS ARE SHOWED IN [@complaintportal_tg].
+💎 KK ARMY IS A BIG-SMALL FAMILY IN TG.AND IT HAVE A OWNER @kk_heaven_hater .
+🌹 KK ARMY HAVE VARIOUS TYPES OF GROUPS IN TELEGRAM. YOU CAN FIND FROM HERE @KK_LINKS
+❤KK ARMY PROTECT YOU FROM SPAMMERS AND FLIRTS.PROOFS ARE SHOWED IN  @complaintportal_tg
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/Stenzle_MariaGbot?startgroup=new"),
+            text="➗ Add 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ》To Your Group ➗", url="t.me/Stenzle_MariaGbot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -115,8 +115,8 @@ buttons = [
                              text="Updates🛰️GBANLOGS",
                              url=f"https://t.me/stenzle_appeal_chat"),
                       InlineKeyboardButton(
-                      	     text="complaintportal_tg","https://t.me/complaintportal_tg/1"),
-                       InlineKeyboardButton(text="MUSIC🎼ASSISTANT",callback_data="Alakananda/modules/musicplayer")
+                      	     text="complaintportal_tg",url="https://t.me/complaintportal_tg/1"),
+                       InlineKeyboardButton(text="MUSIC🎼ASSISTANT",url=f"https://t.me/STENZLE_MUSICX"),
     ],
 
 ]
