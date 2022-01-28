@@ -82,16 +82,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I m 'KK_ARMY's offical Group management bot.[🔥](https://telegra.ph/file/ba6d3d723cc696a4310fd.jpg) 
+✪ I'm KK_ARMY"S OFFICIAL GROUP management bot [🔥](http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg) 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
-✌ I can  sing songs in  video and audio format freely
-💎 KK ARMY IS A BIG-SMALL FAMILY IN TG.AND IT HAVE A OWNER.👉 @kk_heaven_hater
-🌹 KK ARMY HAVE VARIOUS TYPES OF GROUPS IN TELEGRAM. YOU CAN FIND FROM HERE👉 @KK_LINKS
-❤ KK ARMY PROTECT YOU FROM SPAMMERS AND FLIRTS.PROOFS ARE SHOWED IN 🛡️ @complaintportal_tg
 """
 
 buttons = [
@@ -114,7 +110,7 @@ buttons = [
                        InlineKeyboardButton(
                              text="Updates🛰️GBANLOGS",
                              url=f"https://t.me/stenzle_appeal_chat"),
-                      InlineKeyboardButton(
+                       InlineKeyboardButton(
                       	     text="complaintportal_tg",
                              url=f"https://t.me/complaintportal_tg/1"),
                        InlineKeyboardButton(
