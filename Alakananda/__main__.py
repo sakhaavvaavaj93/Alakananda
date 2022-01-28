@@ -133,9 +133,14 @@ buttons = [
 
 HELP_STRINGS = """
 𝐈 𝐚𝐦 𝐒𝐓𝐄𝐍𝐙𝐋𝐄_𝐌𝐀𝐑𝐈𝐀 . 
-𝐈 𝐚𝐦 𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐛𝐨𝐭 𝗼𝗳 🐓𝗞𝗞🐓𝗔𝗥𝗠𝗬🐓 , 𝑂𝑤𝑛𝑒𝑟 :- [𝐾𝐾_𝐻𝐸𝐴𝑉𝐸𝑁_𝐻𝐴𝑇𝐸𝑅](https://t.me/kk_heaven_hater)
-𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟_𝗙𝗘𝗗 :- @KK_APPEAL_CHAT ,
-𝗚𝗕𝗔𝗡 𝗟𝗢𝗚𝗦   :- @stenzle_appeal_chat ,
+𝐈 𝐚𝐦 𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐛𝐨𝐭 𝗼𝗳 🐓𝗞𝗞🐓𝗔𝗥𝗠𝗬🐓 , 
+
+𝑂𝑤𝑛𝑒𝑟 : ![𝐾𝐾_𝐻𝐸𝐴𝑉𝐸𝑁_𝐻𝐴𝑇𝐸𝑅](https://t.me/kk_heaven_hater),
+
+𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟_𝗙𝗘𝗗 :-  ![@KK_APPEAL_CHAT](https://t.me/KK_APPEAL_CHAT) ,
+
+𝗚𝗕𝗔𝗡 𝗟𝗢𝗚𝗦   :- ![@stenzle_appeal_chat](https://t.me/stenzle_appeal_chat) ,
+
 Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/39d18744acde2f5423a92.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
