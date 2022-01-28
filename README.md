@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="http://telegra.ph/file/0adf9e97735ba8a420973.jpg">
+  <img src="https://telegra.ph/file/bf2a90eb09de80957ef08.jpg">
 </p>
 
 <h4><p align="center"> 𝐒𝐡𝐮𝐊𝐮𝐫𝐞𝐧𝐚𝐢𝐗𝐑𝐨𝐁𝐨𝐭 </p></h4>
 
-<p align="center">ShuKurenaiXRoBot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">[@Stenzle_MariaGbot](https://t.me/Stenzle_MariaGbot) is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
 <a href="https://t.me/Stenzle_MariaGbot"> <img src="https://img.shields.io/badge/ShuKurenaiXRoBot-blue?&logo=telegram" alt="ShuKurenaiXRoBot on Telegram" /> </a><br>
@@ -21,28 +21,11 @@
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shukurenai007/Alakananda"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-```
-This Bot is Created by shukurenai007, If your kanging this without fork at least give a credit to get a smile of my hard work. 
-- ShuKurenaiXRoBot
-- EmikoRobot
-- YoneRobot
-- SaitamaRobot 
-- TheRealPhoenixBot
-- DaisyX 
-- WilliamButcherBot
-```
+# 🔱 OwneR
+     [DARK_DEVIL](https://t.me/FULL_CRUAL_MIND)
 
-### Support
-<p>
-<a href="https://t.me/ShuKurenaiXRoBot"> <img src="https://img.shields.io/badge/Telegram-RoBot-blue?&logo=telegram" alt="Telegram RoBot" /> </a><br>
-<a href="https://t.me/ShuKurenaiSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
-<a href="https://t.me/shukurenai007"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
-</p>
+# Permenant Devs :- 
 
-## Credit 
+  🔱 [Heaven_hater](https://t.me/kk_heaven_hater)
 
-• [DeepakJack](https://github.com/DeepakJack007)``Dev``
-
-• [Kishore](https://github.com/AASFCYBERKING)``Dev``
-
-• [Nandha](https://github.com/Ctzfamily)``Dev``
+# 🔱 [Jinn_Sulthan](https://t.me/JINN_SULTHAN)
