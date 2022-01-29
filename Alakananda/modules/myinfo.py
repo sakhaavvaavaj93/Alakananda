@@ -8,15 +8,15 @@ from Alakananda import telethn as aasf
 from Alakananda.events import register 
 
 edit_time = 5
-Shu1 = "http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg"
-Shu2 = "http://telegra.ph/file/e384ab52db8c0912ca356.jpg"
-Shu3 = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
-Shu4 = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
+Shu1 = "https://telegra.ph/file/8ff4d6113d48cb904e731.jpg"
+Shu2 = "https://telegra.ph/file/8ff4d6113d48cb904e731.jpg"
+Shu3 = "https://telegra.ph/file/8ff4d6113d48cb904e731.jpg"
+Shu4 = "https://telegra.ph/file/8ff4d6113d48cb904e731.jpg"
 
 @register(pattern="/myinfo")
 async def proboyx(event):
   button = [[custom.Button.inline("CHECK",data="information")]]
-  on = await aasf.send_message(event.chat, f"**❦ Hᴇʏ {(event.sender.first_name)}**\n\n**❦ I Aᴍ [ShuKurenai](https://t.me/Alakananda)**\n**❦ I Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ [ShuKurenaiTeam](t.me/shukurenai007)**", file=Shu1, buttons=button)
+  on = await aasf.send_message(event.chat, f"**❦ Hᴇʏ {(event.sender.first_name)}**\n\n**❦ I AM YOUR FRIEND [《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ》](https://t.me/Stenzle_MariaGbot)**\n**❦ I Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ [《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ》Team](t.me/stenzle_appeal_chat)**", file=Shu1, buttons=button)
 
   await asyncio.sleep(edit_time)
   ok = await aasf.edit_message(event.chat_id, on, file=Shu2, buttons=button) 
@@ -44,7 +44,7 @@ async def callback_query_handler(event):
   try:
     boy = event.sender_id
     PRO = await bot.get_entity(boy)
-    SHU = "YOUR DETAILS BY SHU KURENAI \n"
+    SHU = "YOUR DETAILS BY 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ》 \n"
     SHU += f"FIRST NAME : {PRO.first_name} \n"
     SHU += f"LAST NAME : {PRO.last_name}\n"
     SHU += f"YOU BOT : {PRO.bot} \n"
