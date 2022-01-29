@@ -510,8 +510,8 @@ def Source_about_callback(update, context):
             "\n • `/end` - For end the playback."
             "\n\n๏ Command for all members."
             "\n • `/play` <query /reply audio> - Playing music via YouTube."
-            "\n • `/playlist` - To playing a playlist of groups or your personal playlist",
-            "\n • PLs contact on @FULL_CRUAL_MIND for Get sudo"
+            "\n • `/playlist` - To playing a playlist of groups or your personal playlist"
+            "\n • `/owner` - PLs contact on @FULL_CRUAL_MIND for Get sudo",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
