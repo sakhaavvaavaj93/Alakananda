@@ -8,25 +8,25 @@ from telegram.ext import (
     CallbackQueryHandler,
     InlineQueryHandler,
 )
-from telegram.ext.filters import MessageFilter
+from telegram.ext.filters import BaseFilter
 from Alakananda import dispatcher as d, LOGGER
 from typing import Optional, Union, List
 
 
-class ShuKurenaiHandler:
+class SiestaHandler:
     def __init__(self, d):
         self._dispatcher = d
 
     def command(
         self,
         command: str,
-        filters: Optional[MessageFilter] = None,
+        filters: Optional[BaseFilter] = None,
         admin_ok: bool = False,
         pass_args: bool = False,
         pass_chat_data: bool = False,
         run_async: bool = True,
         can_disable: bool = True,
-        group: Optional[Union[int,str]] = 40,
+        group: Optional[Union[int]] = 40,
     ):
         def _command(func):
             try:
@@ -54,7 +54,7 @@ class ShuKurenaiHandler:
                         group,
                     )
                 LOGGER.debug(
-                    f"[EMIKOCMD] Loaded handler {command} for function {func.__name__} in group {group}"
+                    f"[SIESTACMD] Loaded handler {command} for function {func.__name__} in group {group}"
                 )
             except TypeError:
                 if can_disable:
@@ -81,7 +81,7 @@ class ShuKurenaiHandler:
                         )
                     )
                 LOGGER.debug(
-                    f"[SHUKURENAICMD] Loaded handler {command} for function {func.__name__}"
+                    f"[SIESTACMD] Loaded handler {command} for function {func.__name__}"
                 )
 
             return func
@@ -93,7 +93,7 @@ class ShuKurenaiHandler:
         pattern: Optional[str] = None,
         can_disable: bool = True,
         run_async: bool = True,
-        group: Optional[Union[int,str]] = 60,
+        group: Optional[Union[int]] = 60,
         friendly=None,
     ):
         def _message(func):
@@ -110,7 +110,7 @@ class ShuKurenaiHandler:
                         MessageHandler(pattern, func, run_async=run_async), group
                     )
                 LOGGER.debug(
-                    f"[SHUKURENAIMSG] Loaded filter pattern {pattern} for function {func.__name__} in group {group}"
+                    f"[SIESTAMSG] Loaded filter pattern {pattern} for function {func.__name__} in group {group}"
                 )
             except TypeError:
                 if can_disable:
@@ -124,7 +124,7 @@ class ShuKurenaiHandler:
                         MessageHandler(pattern, func, run_async=run_async)
                     )
                 LOGGER.debug(
-                    f"[SHUKURENAIMSG] Loaded filter pattern {pattern} for function {func.__name__}"
+                    f"[SIESTAMSG] Loaded filter pattern {pattern} for function {func.__name__}"
                 )
 
             return func
@@ -139,7 +139,7 @@ class ShuKurenaiHandler:
                 )
             )
             LOGGER.debug(
-                f"[SHUKURENAICALLBACK] Loaded callbackquery handler with pattern {pattern} for function {func.__name__}"
+                f"[SIESTACALLBACK] Loaded callbackquery handler with pattern {pattern} for function {func.__name__}"
             )
             return func
 
@@ -165,14 +165,14 @@ class ShuKurenaiHandler:
                 )
             )
             LOGGER.debug(
-                f"[SHUKURENAIINLINE] Loaded inlinequery handler with pattern {pattern} for function {func.__name__} | PASSES USER DATA: {pass_user_data} | PASSES CHAT DATA: {pass_chat_data} | CHAT TYPES: {chat_types}"
+                f"[SIESTAINLINE] Loaded inlinequery handler with pattern {pattern} for function {func.__name__} | PASSES USER DATA: {pass_user_data} | PASSES CHAT DATA: {pass_chat_data} | CHAT TYPES: {chat_types}"
             )
             return func
 
         return _inlinequery
 
 
-ShuKurenaicmd = ShuKurenaiHandler(d).command
-ShuKurenaimsg = ShuKurenaiHandler(d).message
-ShuKurenaicallback = ShuKurenaiHandler(d).callbackquery
-ShuKurenaiinline = ShuKurenaiHandler(d).inlinequery
+siestacmd = SiestaHandler(d).command
+siestamsg = SiestaHandler(d).message
+siestacallback = SiestaHandler(d).callbackquery
+siestainline = SiestaHandler(d).inlinequery
