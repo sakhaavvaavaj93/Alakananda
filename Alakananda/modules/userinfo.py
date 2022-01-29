@@ -43,7 +43,7 @@ from Alakananda.modules.helper_funcs.extraction import extract_user
 from Alakananda import telethn
 from Alakananda import SUPPORT_CHAT
 
-SHU = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
+SHU = "http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg"
 
 def no_by_per(totalhp, percentage):
     """
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "🌡️Health🌡️", url="https://t.me/stenzle_appeal_chat/1"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "👑DEVS👑", url="https://t.me/stenzle_appeal_chat/2")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "🌡️Health🌡️", url="https://t.me/stenzle_appeal_chat/1"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "🛡️DEVS🛡️", url="https:/t.me/stenzle_appeal_chat/2")
                         ],
                     ]
                 ),
@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current ShuKurenai Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current 《ᴤᴛᴲᴎᴣᴌᴇ᚛〄᚜ᴹᴀᴙᴉᴀ》 Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By ShuKurenaiSupport」</b>"
+    result += "\n<b>╘═━「 Powered By @Stenzle_MariaGbot」</b>"
     update.effective_message.reply_photo(
         SHU,caption=result, 
         reply_markup=InlineKeyboardMarkup(
@@ -459,7 +459,7 @@ def stats(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Support", url=f"https://t.me/{SUPPORT_CHAT}"),
                             InlineKeyboardButton(
-                                "Updates", url=f"https://t.me/shukurenai007")
+                                "Updates", url=f"https://t.me/stenzle_appeal_chat")
                         ],
                     ]
                 ),
