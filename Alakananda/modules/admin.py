@@ -292,6 +292,9 @@ def lowpromote(update: Update, context: CallbackContext) -> str:
             can_delete_messages=bot_member.can_delete_messages,
             can_invite_users=bot_member.can_invite_users,
             can_pin_messages=bot_member.can_pin_messages,
+            can_manage_voice_chats=bot_member.can_manage_voice_chats,
+            can_Add_New_Admin=bot_member.can_add_new_admins,
+            can_change_group_info=bot_member.can_change_group_info
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
