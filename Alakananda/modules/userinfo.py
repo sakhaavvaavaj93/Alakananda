@@ -43,7 +43,7 @@ from Alakananda.modules.helper_funcs.extraction import extract_user
 from Alakananda import telethn
 from Alakananda import SUPPORT_CHAT
 
-SHU = "http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg"
+SHU = "https://telegra.ph/file/d728e93b230e469271f2b.jpg"
 
 def no_by_per(totalhp, percentage):
     """
