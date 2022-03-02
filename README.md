@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/bf2a90eb09de80957ef08.jpg">
 </p>
 
-<h4><p align="center"> 𝐒𝐡𝐮𝐊𝐮𝐫𝐞𝐧𝐚𝐢𝐗𝐑𝐨𝐁𝐨𝐭 </p></h4>
+<h4><p align="center"> 💞 Stenzle 💞</p></h4>
 
 [@Stenzle_MariaGbot](https://t.me/Stenzle_MariaGbot) is a modular bot running on python3 with anime theme and have a lot features.
 
