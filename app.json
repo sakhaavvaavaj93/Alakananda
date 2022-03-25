@@ -36,24 +36,23 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "17861206"
+         "value": "9279273"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "befcd65996857d7729785a975089e194"
+         "value": "4a4b4f2aef9199829231c306a62fef2f"
       },    
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5033429801"
+         "value": "5209591009"
      },
 
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
-         "value": "AQCNUK7KFOEaMwJe5CXS5mGGTc_rvzfm0rVqJ63nW2ORkLTufhlEctMuSgGlLSMoVySrcd-G_3M0VIuuUC08yn-kE1WI8vGmVPAYRACzM5aN12JjjntOJhuvFKHB1R6a1I65wo9fINPn1ZQLR1p3UB06DRqa4ZYBCHDlp-8TrE4_Q9m9Fb4wpyrGNosXQ0pGh-uI04NCDxVN5k1avHTQ1WTABuTakZIZEd_CcFyxO9vix8gWpWhEqMenS9TEp-YnHfCh7uVJZQlavA6TRzRbH7_-MKGPwNoWtrMWB2sjne_jv5kXCuEpkWNW-lkGy5k3nbrefld3pOdCVLsKoxJuQ0VnAAAAATQrNZgA" 
-      },
+         "value": "1AZWarzYBu8G02y8l_e9c_Es-1XMG_LPaiIOoIByyJG5zOUyWUU2flBuRYf8t3LSFd7cbltaETMXgD7XaNAgnwcHs821QMC5vdQjZZm_siE5Fo7TahJov3UF2Nv7EE8TuL7uXUiil3fktVbWp1A395kOg0m6vIsnZz0J6OWuDad0SZRdFF5ccqf9oq488Ip0hINCOB7d7bmLujfw4fywDsTaSmCtD0e2fNmAl5wzKWsm_R4qGv22fPM199aP1kiVrjydQY6qZwOWI0vOEP1pFe8qdUhNNbOkepUCAQQKIP-2wCbl-U_XFP8LDr_D3Chl7im7Cb3n2VDn51NliHQo1fNAcCoiK7EA="},
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
         "value": ""
@@ -74,7 +73,7 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "FULL_CRUAL_MIND"
+         "value": "BEHALF_OF_KRISHNA"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
@@ -97,12 +96,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001759249825"
+         "value": "-1001614825920"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001759249825"
+         "value": "-1001614825920"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -124,12 +123,12 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "5033429801 5007155069 5174539014 5167710790 5068329535"
+         "value": "5209591009 1450752769 1961162381 5100627995 1178184503 718444116 5007155069 5239612895 1021854724 5262366810 1611028827 1731331555 5020973715"
      },
       "ERROR_LOG": {
          "description": "ID of log for show error.",
          "required": false,
-         "value": "-1001528735252"
+         "value": "-1001218321554"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -164,7 +163,7 @@
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "5033429801 5007155069 5174539014 5167710790 5068329535"
+         "value": ""
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -202,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://www.phonepay/+918304097966"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
