@@ -88,8 +88,9 @@ PM_START_TEXT = """
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
-☑ I am KK_ARMY"s official bot 
-♛ Its have some groups at veriety think.and you can see from @KK_LINKS
+☑ I am @kk_kovilakam "s official bot 
+♛ Its have some groups at veriety think.and you can see from @KK_LINKS and @k_k_links
+💯 We have everytime bouthered on your security , therefore you can give a social media complaint on us by the fed [KK_OFFICIAL](https://t.me/+zDfVk-0tB7IxYzc0) and [KK_WARRIOR](https://t.me/KK_warrior)
 """
 
 buttons = [
@@ -108,12 +109,12 @@ buttons = [
     [                  
                        InlineKeyboardButton(
                              text="Support and Logs",
-                             url=f"https://t.me/stenzle_appeal_chat"),
+                             url=f"https://t.me/stenzle_appealchat"),
                        InlineKeyboardButton(
-                             text="KK🛡️FED",
-                             url=f"https://t.me/KK_APPEAL_CHAT"),
-                       InlineKeyboardButton(text="For Pm Complaint ",url=f"https://t.me/complaintportal_tg"),
-                       InlineKeyboardButton(text="MUSIC🔊ASSISTANT",url=f"https://t.me/STENZLE_MUSICX"),
+                             text="LEGAL👮ADVISER",
+                             url=f"https://t.me/L_The_Fallen_Angel"),
+                       InlineKeyboardButton(text="For Pm Complaint ",url=f"https://t.me/complaint_portal_tg"),
+                       InlineKeyboardButton(text="MUSIC🔊ASSISTANT",url=f"https://t.me/STENZLE"),
     ],
 
 ]
@@ -189,7 +190,7 @@ def send_help(chat_id, text, keyboard=None):
 
 
 def test(update: Update, context: CallbackContext):
-    # pprint(eval(str(update)))
+    # print(eval(str(update)))
     # update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
     update.effective_message.reply_text("This person edited a message")
     print(update.effective_message)
