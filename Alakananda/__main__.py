@@ -88,8 +88,8 @@ PM_START_TEXT = """
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
-☑ I am @kk_kovilakam "s official bot 
-♛ Its have some groups at veriety think.and you can see from @KK_LINKS and @k_k_links
+☑ I am [@kk_kovilakam](https://t.me/kk_kovilakam) "s official bot 
+♛ Its have some groups at veriety think.and you can see from [@KK_LINKS](https://t.me/KK_LINKS) and [@k_k_links](https://t.me/k_k_links)
 💯 We have everytime bouthered on your security , therefore you can give a social media complaint on us by the fed [KK_OFFICIAL](https://t.me/+zDfVk-0tB7IxYzc0) and [KK_WARRIOR](https://t.me/KK_warrior)
 """
 
